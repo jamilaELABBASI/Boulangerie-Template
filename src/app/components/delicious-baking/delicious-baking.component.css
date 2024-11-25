@@ -1,0 +1,101 @@
+.baking_title{
+    margin: 20px;
+}
+
+
+.baking_title h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.baking{
+
+  flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+
+.baking img{
+  width: 80px;
+  height: 80px;
+  padding: 0 20px 0 0;
+}
+
+.baking_1 , .baking_2, .baking_3{
+  width: 80%;
+  padding: 40px;
+  display: flex;
+}
+
+.baking_1 h1, .baking_2 h1, .baking_3 h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.baking_1 .baked_fresh_daily, .baking_2 .great_value {
+  margin: 0 0 30px 0;
+}
+
+ .baked_fresh_daily_1,.institutions_1,.great_value_1,.delivery_to_your_door_1 {
+    display: flex;
+}
+
+.read_more {
+  position: relative;
+  display: flex;
+}
+
+.read_more img{
+  object-fit: cover;
+    width: 100%;
+  height: 100vh;
+}
+
+.read_more_text h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.read_more_text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+
+.read_more_text button{
+  position: absolute;
+    top: 80%;
+    left: 65%;
+}
+.read_more_text button a{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    /*background-color: #ad8753;*/
+    color: #ad8753;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+    border-color: #ad8753;
+     border-width: 2px;
+  font-weight: bold;
+}
+
+.read_more_text button a:hover {
+    background-color: #ad8753;
+    color: black;
+    width: 150px;
+    border: none;
+
+}

@@ -1,0 +1,88 @@
+
+.background{
+display: flex;
+ height: 90vh;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.background_text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+.background_text h2{
+  font-size: 50px;
+}
+
+.background_text h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+}
+
+.background_text h3{
+  font-size:    30px;
+}
+
+.find_us{
+  position: absolute;
+    top: 65%;
+    right: 80%;
+    width: 10%;
+  color: #ad8753;
+  font-size: 20px;
+
+
+}
+.find_us h1 {
+    color: Black;
+    font-weight: bold;
+}
+
+
+.hours{
+  position: absolute;
+  top: 65%;
+  right: 35%;
+  width: 20%;
+  color: #ad8753;
+  font-size: 20px;
+}
+
+.hours h1 {
+  color: Black;
+  font-weight: bold;
+}
+
+.call_us{
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    width: 13%;
+    color: #ad8753;
+    font-weight: bold;
+  font-size: 20px;
+
+}
+
+
+.call_us h1 {
+  color: Black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
