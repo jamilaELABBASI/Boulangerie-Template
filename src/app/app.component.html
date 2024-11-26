@@ -1,5 +1,43 @@
 <!-- -->
-<app-dash-board></app-dash-board>
-<app-delicious-baking></app-delicious-baking>
-<app-our-breads></app-our-breads>
-<app-contact></app-contact>
+  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+
+    <a routerLink="delicious_baking" routerLinkActive="active" ariaCurrentWhenActive="page">Delicious Baking</a>
+    <a routerLink="ours_breads" routerLinkActive="active" ariaCurrentWhenActive="page">Ours Beards</a>
+
+  </nav>
+    <app-dash-board></app-dash-board>
+    <router-outlet></router-outlet>
+
+
+  <div class="contact">
+    <img src="assets/footer.jpg">
+
+    <div class="contact_us">
+      <div class="title">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="contact_us_1">
+        <p>Monday - Friday 7:00 AM - 6:00 PM | Saturday 7:00 AM - 4:00 PM</p>
+        <p>Closed Sunday to focus on faith and family</p>
+      </div>
+      <div class="contact_us_2">
+        <p> <b>Phone:</b>(678) 580-0734</p>
+        <p> <b>Phone:</b>(678) 580-0734</p>
+      </div>
+      <div class="contact_us_3">
+        <p><b>Address:</b></p>
+        <p>Great Harvest Bread Company</p>
+        <p>150 Athens Hwy Suite 700</p>
+        <p>Loganville, GA 30052</p>
+      </div>
+    </div>
+
+    <div class="link">
+      <p>Sample text. Click to select the Text Element.</p>
+      <p><a href="">Website Design</a>created with<a href="">Free Website Builder.</a></p>
+    </div>
+
+
+
+  </div>
+
