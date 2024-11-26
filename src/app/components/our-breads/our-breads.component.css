@@ -1,7 +1,7 @@
 .our_breads{
     background-color: darkgray;
-    margin:0 50px 0 50px;
-    height: 155vh;
+    width: 100%;
+    margin:0 5%;
     padding: 30px ;
     flex-direction: column;
     display: flex;
@@ -145,7 +145,7 @@ flex-direction: column;
   flex-direction: row;
     display: flex;
   position: absolute;
-  top: 30%;
+  top: 35%;
   color: white;
   justify-content: space-around;
 }
