@@ -1,15 +1,19 @@
 <!-- -->
+<div class="header">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
 
     <a routerLink="delicious_baking" routerLinkActive="active" ariaCurrentWhenActive="page">Delicious Baking</a>
     <a routerLink="ours_breads" routerLinkActive="active" ariaCurrentWhenActive="page">Ours Beards</a>
+    <a routerLink="register" routerLinkActive="active" ariaCurrentWhenActive="page">Register</a>
+    <a routerLink="connect" routerLinkActive="active" ariaCurrentWhenActive="page">Connect</a>
 
   </nav>
-    <app-dash-board></app-dash-board>
+</div>
+    <app-dash-board *ngIf="showDashboard"></app-dash-board>
     <router-outlet></router-outlet>
 
 
-  <div class="contact">
+    <div class="contact">
     <img src="assets/footer.jpg">
 
     <div class="contact_us">
