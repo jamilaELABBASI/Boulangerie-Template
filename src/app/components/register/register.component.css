@@ -1,0 +1,15 @@
+
+.logo{
+  margin-top: 150px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo img{
+  width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
